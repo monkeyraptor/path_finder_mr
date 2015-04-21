@@ -1,5 +1,5 @@
 # Path Finder by MR
-**Path finder with A* (Manhattan style) plus shuffling**
+**HTML, CSS, and JavaScript: Path finder with A* (Manhattan style) plus shuffling**
 
 ## Demo
 
