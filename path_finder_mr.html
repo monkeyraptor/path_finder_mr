@@ -27,8 +27,7 @@
 
     <div id="wrapper">
         <div class="center m">
-            <div class="outer" id="outer">
-            </div>
+            <div class="outer" id="outer"></div>
         </div>
         <div class="center">
             <button id="find" disabled="1" onclick="AI.init(0, this)" type="button">
@@ -45,15 +44,16 @@
         </div>
     </div>
 
-    <!--A* - Manhattan style combined with forced array shuffle-->
+    
     <SCRIPT>
-        (function(d, h, s) {
+        //Initialize external script    
+        (function (w, u, t) {
             var url = "path_finder_mr.js",
-                app = d.createElement(s),
-                top = d.head;
+                app = w.createElement(t),
+                top = w.getElementsByTagName(u)[0];
             app.src = url;
             top.appendChild(app);
-        }(document, "head", "script"));
+        }(document, "head", "script"));     
 
         //check DOM
         var d = document,
