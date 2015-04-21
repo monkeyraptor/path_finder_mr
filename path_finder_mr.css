@@ -1,0 +1,102 @@
+body { background:#eee; }
+#wrapper { display:none; }
+#find,#rebuild,#title,#clear,.monospace { 
+  font-family:consolas,monaco,monospace; 
+  padding:10px 20px; border-radius:4px; 
+}
+.monospace {
+  color:#888; font-size:12px;
+  background:white; box-shadow:1px 1px 2px #888 inset;
+  text-align:center; display:inline-block;
+}
+#title {
+  background: white;
+  box-shadow:0 2px 5px #999;
+  display:inline-block;
+}
+#find:hover,#rebuild:hover, #clear:hover { 
+  cursor:pointer;
+}
+#clear[disabled]:hover,#find[disabled]:hover,#rebuild[disabled]:hover { 
+  cursor:auto;
+}
+.point {          
+  background:green;
+  font-size:.6rem;
+  color:white;
+  box-shadow:0 0 1px #000 inset;
+  color:transparent;
+}     
+.point:hover {
+  background:white;        
+  cursor:pointer;        
+  box-shadow:0 0 10px #000 inset;
+}
+.start {
+  background:deepskyblue!important;        
+}
+.end {
+  background:orange!important;        
+}     
+.obs {
+  background:#888!important;        
+}
+.point:hover,.start:hover,.end:hover {
+  color:black;
+}
+.obs:hover {
+  color:white;
+}
+.lookup {
+  background: lightgreen!important;
+}
+.path {
+  background: lime!important;
+  color:white;
+}
+.path:hover {        
+  box-shadow:none;
+}
+.wrap {      
+  display:inline-block;        
+  margin:0;
+  text-align:center;   
+  padding:0;           
+  height:auto;
+}
+.center {
+  text-align:center;
+}
+.outer {
+  box-shadow:0 2px 10px #333;
+  margin:auto;
+  vertical-align:top;
+  background:#000;
+  padding:10px;        
+  border-radius:10px; 
+}
+.m {
+  margin:10px auto 20px auto; 
+}     
+.white {
+  background:white!important;
+}
+.no {
+  background:#333;
+}
+.boo {
+  background: red;
+}
+.poo {
+  background: brown;
+}    
+.smiley:after {
+  content: "☺";
+  font-size:30px;
+  color:darkgreen;
+  position:absolute;
+  margin-left:-24px;
+}
+.smiley:hover:after {
+  color:transparent;
+}
