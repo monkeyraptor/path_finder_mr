@@ -7,7 +7,7 @@
 // Demo at http://thor.johanpaul.net/path_finding. Look at the page source.
 
 //I didn't "clean" this up. Like, consistency and all that.
-//This was a "learning time", sort of speak.
+//This was a "idea-to-codes-and-it-works learning time", sort of speak.
 
 //global variables
 var AI, trigger, g_s, build, misc;
