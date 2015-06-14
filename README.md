@@ -10,7 +10,7 @@ Visualization demo is at: [`Thor`](http://thor.johanpaul.net/path_finding)
 - The **directions shuffling** can be replaced with ***actual array tinkering***.
 
 ## Basic
-The basic about **A* algorithm** can be read on [`Wikipedia`](en.wikipedia.org/wiki/A*_search_algorithm)
+The basic about **A* algorithm** can be read on [`Wikipedia`](https://en.wikipedia.org/wiki/A*_search_algorithm)
 
 ## Snapshots of UI
 
