@@ -25,10 +25,10 @@ The basic about **A* algorithm** can be read on [`Wikipedia`](https://en.wikiped
 ## Snapshots of UI
 
 #### Shuffle *success* #1
-![shuffle success 1](https://jpython27.appspot.com/path_finder_mr_1.png)
+![shuffle success 1](https://jpython27.appspot.com/im/path_finder_mr_1.png)
 
 #### Shuffle *success* #2
-![shuffle success 2](https://jpython27.appspot.com/path_finder_mr_2.png)
+![shuffle success 2](https://jpython27.appspot.com/im/path_finder_mr_2.png)
 
 #### *No path* or *cannot calculate* response
-![no path](https://jpython27.appspot.com/path_finder_mr_3.png)
+![no path](https://jpython27.appspot.com/im/path_finder_mr_3.png)
